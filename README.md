@@ -1,4 +1,4 @@
-3DS_Banner_Maker
+3DS Banner Maker
 ================
 Create custom banner and icon files for your 3ds homebrews.
 This is an improved version of SnailFace's Banner Maker! It has many usefull changes:
