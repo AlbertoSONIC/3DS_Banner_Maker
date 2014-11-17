@@ -1,0 +1,1 @@
+lol=msgbox("Last step: Press OK to convert banner.bnr and icon.icn to *.bin files")

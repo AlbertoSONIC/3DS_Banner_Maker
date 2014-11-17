@@ -1,0 +1,19 @@
+3DS Banner Maker - snailface
+Create custom banner and icon files for your 3ds homebrews.
+
+
+To replace icons: overwrite the .png in the either one of the 'ctpk' folders and click convert.bat to convert the images. Make sure image dimensions are the same as the folder indicates.
+
+To replace the banner: In the cbmd_banner folder, you have to overwrite the 256x128.png file with an image of your choice. Click convert.bat same as before. Transparency is supported.
+
+To replace the sound effect: Overwrite the example.bcwav file with one of your choice. .wav to bcwav conversion is not supported at this time.
+
+To change display text and setting flags: edit the variables in AppData.txt. Further instructions are inside this document.
+
+To convert everything to .bnr and .icn files: simply click _build_ICNandBNR.bat in the 3DS Banner Maker folder. Next place place these two files in your 3DSTemplate resource folder and compile as usual.
+
+
+Dependencies: Python 2, PIL Image libray (Python Image Library)
+Xcution's CiTRUS application is no longer a dependancy.
+
+
