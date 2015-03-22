@@ -1,1 +1,0 @@
-lol=msgbox("ICONS built. Press OK to build BANNER")

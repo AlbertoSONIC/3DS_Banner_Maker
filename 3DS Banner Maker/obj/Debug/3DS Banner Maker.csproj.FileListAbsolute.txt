@@ -1,0 +1,9 @@
+c:\users\albertosonic\documents\visual studio 2013\Projects\3DS Banner Maker\3DS Banner Maker\bin\Debug\3DS Banner Maker.exe.config
+c:\users\albertosonic\documents\visual studio 2013\Projects\3DS Banner Maker\3DS Banner Maker\bin\Debug\3DS Banner Maker.exe
+c:\users\albertosonic\documents\visual studio 2013\Projects\3DS Banner Maker\3DS Banner Maker\bin\Debug\3DS Banner Maker.pdb
+c:\users\albertosonic\documents\visual studio 2013\Projects\3DS Banner Maker\3DS Banner Maker\obj\Debug\3DS Banner Maker.csprojResolveAssemblyReference.cache
+c:\users\albertosonic\documents\visual studio 2013\Projects\3DS Banner Maker\3DS Banner Maker\obj\Debug\_3DS_Banner_Maker.Form1.resources
+c:\users\albertosonic\documents\visual studio 2013\Projects\3DS Banner Maker\3DS Banner Maker\obj\Debug\_3DS_Banner_Maker.Properties.Resources.resources
+c:\users\albertosonic\documents\visual studio 2013\Projects\3DS Banner Maker\3DS Banner Maker\obj\Debug\3DS Banner Maker.csproj.GenerateResource.Cache
+c:\users\albertosonic\documents\visual studio 2013\Projects\3DS Banner Maker\3DS Banner Maker\obj\Debug\3DS Banner Maker.exe
+c:\users\albertosonic\documents\visual studio 2013\Projects\3DS Banner Maker\3DS Banner Maker\obj\Debug\3DS Banner Maker.pdb

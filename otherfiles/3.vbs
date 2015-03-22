@@ -1,1 +1,0 @@
-lol=msgbox("BANNER built. Press OK to build everything (including AppData.txt)")
