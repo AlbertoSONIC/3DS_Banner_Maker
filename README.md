@@ -2,11 +2,17 @@
 ================
 Create custom banner and icon files for your 3DS homebrews.
 This 2.0 update brings:
+
 -NEW UI!
+
 -BANNER AND ICONS PREVIEW!
+
 -EASY TITLE, PUBLISHER AND OPTIONS MODIFICATION
--NOW LOADING IMAGES IS WAY EASIER!
+
+-NOW LOADING IMAGES IS WAY EASIER
+
 -STILL BASED OFF SNAILFACE'S SCRIPT
+
 
 How to use:
 ===============
