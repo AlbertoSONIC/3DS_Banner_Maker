@@ -29,38 +29,38 @@
         private void InitializeComponent()
         {
             this.previewBox = new System.Windows.Forms.GroupBox();
-            this.bannerPreview = new System.Windows.Forms.PictureBox();
-            this.icon48Preview = new System.Windows.Forms.PictureBox();
             this.icon24Preview = new System.Windows.Forms.PictureBox();
+            this.icon48Preview = new System.Windows.Forms.PictureBox();
+            this.bannerPreview = new System.Windows.Forms.PictureBox();
             this.loadBox = new System.Windows.Forms.GroupBox();
-            this.loadBannerBtt = new System.Windows.Forms.Button();
-            this.loadIcon48Btt = new System.Windows.Forms.Button();
             this.loadIcon24Btt = new System.Windows.Forms.Button();
+            this.loadIcon48Btt = new System.Windows.Forms.Button();
+            this.loadBannerBtt = new System.Windows.Forms.Button();
             this.optionBox = new System.Windows.Forms.GroupBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox9 = new System.Windows.Forms.CheckBox();
+            this.checkBox10 = new System.Windows.Forms.CheckBox();
             this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.checkBox6 = new System.Windows.Forms.CheckBox();
             this.checkBox7 = new System.Windows.Forms.CheckBox();
             this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.infoBox = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.saveBox = new System.Windows.Forms.GroupBox();
             this.exportBannerBtt = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.previewBox.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bannerPreview)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.icon48Preview)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.icon24Preview)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icon48Preview)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bannerPreview)).BeginInit();
             this.loadBox.SuspendLayout();
             this.optionBox.SuspendLayout();
             this.infoBox.SuspendLayout();
@@ -79,14 +79,14 @@
             this.previewBox.TabStop = false;
             this.previewBox.Text = "Preview:";
             // 
-            // bannerPreview
+            // icon24Preview
             // 
-            this.bannerPreview.Location = new System.Drawing.Point(19, 28);
-            this.bannerPreview.Name = "bannerPreview";
-            this.bannerPreview.Size = new System.Drawing.Size(256, 128);
-            this.bannerPreview.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.bannerPreview.TabIndex = 0;
-            this.bannerPreview.TabStop = false;
+            this.icon24Preview.Location = new System.Drawing.Point(291, 93);
+            this.icon24Preview.Name = "icon24Preview";
+            this.icon24Preview.Size = new System.Drawing.Size(24, 24);
+            this.icon24Preview.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.icon24Preview.TabIndex = 2;
+            this.icon24Preview.TabStop = false;
             // 
             // icon48Preview
             // 
@@ -97,14 +97,14 @@
             this.icon48Preview.TabIndex = 1;
             this.icon48Preview.TabStop = false;
             // 
-            // icon24Preview
+            // bannerPreview
             // 
-            this.icon24Preview.Location = new System.Drawing.Point(291, 93);
-            this.icon24Preview.Name = "icon24Preview";
-            this.icon24Preview.Size = new System.Drawing.Size(24, 24);
-            this.icon24Preview.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.icon24Preview.TabIndex = 2;
-            this.icon24Preview.TabStop = false;
+            this.bannerPreview.Location = new System.Drawing.Point(19, 28);
+            this.bannerPreview.Name = "bannerPreview";
+            this.bannerPreview.Size = new System.Drawing.Size(256, 128);
+            this.bannerPreview.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.bannerPreview.TabIndex = 0;
+            this.bannerPreview.TabStop = false;
             // 
             // loadBox
             // 
@@ -118,15 +118,15 @@
             this.loadBox.TabStop = false;
             this.loadBox.Text = "Load Images:";
             // 
-            // loadBannerBtt
+            // loadIcon24Btt
             // 
-            this.loadBannerBtt.Location = new System.Drawing.Point(9, 19);
-            this.loadBannerBtt.Name = "loadBannerBtt";
-            this.loadBannerBtt.Size = new System.Drawing.Size(143, 35);
-            this.loadBannerBtt.TabIndex = 0;
-            this.loadBannerBtt.Text = "Load Banner Image";
-            this.loadBannerBtt.UseVisualStyleBackColor = true;
-            this.loadBannerBtt.Click += new System.EventHandler(this.loadBannerBtt_Click);
+            this.loadIcon24Btt.Location = new System.Drawing.Point(9, 101);
+            this.loadIcon24Btt.Name = "loadIcon24Btt";
+            this.loadIcon24Btt.Size = new System.Drawing.Size(143, 35);
+            this.loadIcon24Btt.TabIndex = 2;
+            this.loadIcon24Btt.Text = "Load Icon (24x24)";
+            this.loadIcon24Btt.UseVisualStyleBackColor = true;
+            this.loadIcon24Btt.Click += new System.EventHandler(this.loadIcon24Btt_Click);
             // 
             // loadIcon48Btt
             // 
@@ -138,15 +138,15 @@
             this.loadIcon48Btt.UseVisualStyleBackColor = true;
             this.loadIcon48Btt.Click += new System.EventHandler(this.loadIcon48Btt_Click);
             // 
-            // loadIcon24Btt
+            // loadBannerBtt
             // 
-            this.loadIcon24Btt.Location = new System.Drawing.Point(9, 101);
-            this.loadIcon24Btt.Name = "loadIcon24Btt";
-            this.loadIcon24Btt.Size = new System.Drawing.Size(143, 35);
-            this.loadIcon24Btt.TabIndex = 2;
-            this.loadIcon24Btt.Text = "Load Icon (24x24)";
-            this.loadIcon24Btt.UseVisualStyleBackColor = true;
-            this.loadIcon24Btt.Click += new System.EventHandler(this.loadIcon24Btt_Click);
+            this.loadBannerBtt.Location = new System.Drawing.Point(9, 19);
+            this.loadBannerBtt.Name = "loadBannerBtt";
+            this.loadBannerBtt.Size = new System.Drawing.Size(143, 35);
+            this.loadBannerBtt.TabIndex = 0;
+            this.loadBannerBtt.Text = "Load Banner Image";
+            this.loadBannerBtt.UseVisualStyleBackColor = true;
+            this.loadBannerBtt.Click += new System.EventHandler(this.loadBannerBtt_Click);
             // 
             // optionBox
             // 
@@ -167,49 +167,25 @@
             this.optionBox.TabStop = false;
             this.optionBox.Text = "Options:";
             // 
-            // checkBox1
+            // checkBox9
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Checked = true;
-            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox1.Location = new System.Drawing.Point(17, 28);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(61, 17);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "visibility";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox9.AutoSize = true;
+            this.checkBox9.Location = new System.Drawing.Point(17, 235);
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.Size = new System.Drawing.Size(99, 17);
+            this.checkBox9.TabIndex = 9;
+            this.checkBox9.Text = "disableSaveBU";
+            this.checkBox9.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // checkBox10
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(17, 51);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(69, 17);
-            this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "autoBoot";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(17, 97);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(86, 17);
-            this.checkBox3.TabIndex = 3;
-            this.checkBox3.Text = "requireEULA";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Checked = true;
-            this.checkBox4.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox4.Location = new System.Drawing.Point(17, 74);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(57, 17);
-            this.checkBox4.TabIndex = 2;
-            this.checkBox4.Text = "use3D";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBox10.AutoSize = true;
+            this.checkBox10.Location = new System.Drawing.Point(17, 212);
+            this.checkBox10.Name = "checkBox10";
+            this.checkBox10.Size = new System.Drawing.Size(106, 17);
+            this.checkBox10.TabIndex = 8;
+            this.checkBox10.Text = "recordAppUsage";
+            this.checkBox10.UseVisualStyleBackColor = true;
             // 
             // checkBox5
             // 
@@ -253,25 +229,49 @@
             this.checkBox8.Text = "autoSaveOnExit";
             this.checkBox8.UseVisualStyleBackColor = true;
             // 
-            // checkBox9
+            // checkBox3
             // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(17, 235);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(99, 17);
-            this.checkBox9.TabIndex = 9;
-            this.checkBox9.Text = "disableSaveBU";
-            this.checkBox9.UseVisualStyleBackColor = true;
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(17, 97);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(86, 17);
+            this.checkBox3.TabIndex = 3;
+            this.checkBox3.Text = "requireEULA";
+            this.checkBox3.UseVisualStyleBackColor = true;
             // 
-            // checkBox10
+            // checkBox4
             // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Location = new System.Drawing.Point(17, 212);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(106, 17);
-            this.checkBox10.TabIndex = 8;
-            this.checkBox10.Text = "recordAppUsage";
-            this.checkBox10.UseVisualStyleBackColor = true;
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Checked = true;
+            this.checkBox4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox4.Location = new System.Drawing.Point(17, 74);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(57, 17);
+            this.checkBox4.TabIndex = 2;
+            this.checkBox4.Text = "use3D";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(17, 51);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(69, 17);
+            this.checkBox2.TabIndex = 1;
+            this.checkBox2.Text = "autoBoot";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Checked = true;
+            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox1.Location = new System.Drawing.Point(17, 28);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(61, 17);
+            this.checkBox1.TabIndex = 0;
+            this.checkBox1.Text = "visibility";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // infoBox
             // 
@@ -287,38 +287,6 @@
             this.infoBox.TabIndex = 3;
             this.infoBox.TabStop = false;
             this.infoBox.Text = "Info:";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 19);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Long Title:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(9, 34);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(176, 20);
-            this.textBox1.TabIndex = 1;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(9, 75);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(176, 20);
-            this.textBox2.TabIndex = 3;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 60);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Short Title:";
             // 
             // textBox3
             // 
@@ -336,6 +304,38 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Publisher:";
             // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(9, 75);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(176, 20);
+            this.textBox2.TabIndex = 3;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 60);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(58, 13);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Short Title:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(9, 34);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(176, 20);
+            this.textBox1.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 19);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(57, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Long Title:";
+            // 
             // saveBox
             // 
             this.saveBox.Controls.Add(this.exportBannerBtt);
@@ -352,7 +352,7 @@
             this.exportBannerBtt.Name = "exportBannerBtt";
             this.exportBannerBtt.Size = new System.Drawing.Size(131, 51);
             this.exportBannerBtt.TabIndex = 0;
-            this.exportBannerBtt.Text = "Export Icon and Banner";
+            this.exportBannerBtt.Text = "Build Icon and Banner";
             this.exportBannerBtt.UseVisualStyleBackColor = true;
             this.exportBannerBtt.Click += new System.EventHandler(this.exportBannerBtt_Click);
             // 
@@ -372,11 +372,11 @@
             this.Controls.Add(this.loadBox);
             this.Controls.Add(this.previewBox);
             this.Name = "Form1";
-            this.Text = "3DS Banner Maker";
+            this.Text = "3DS Banner Maker 2.0  |  by AlbertoSONIC";
             this.previewBox.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.bannerPreview)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.icon48Preview)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.icon24Preview)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icon48Preview)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bannerPreview)).EndInit();
             this.loadBox.ResumeLayout(false);
             this.optionBox.ResumeLayout(false);
             this.optionBox.PerformLayout();
