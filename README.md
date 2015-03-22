@@ -1,35 +1,23 @@
-3DS Banner Maker
+3DS Banner Maker 2.0
 ================
-Create custom banner and icon files for your 3ds homebrews.
-This is an improved version of SnailFace's Banner Maker! It has many usefull changes:
-- "py" not found fixed!
-- A lot of user friendly popups!
-- Auto cleans old files before building!
-- Added a Clean.bat file in order to quickly clean!
-- It automatically converts outputted files to *.bin!
-- All-In-One bat file: you run it and it does everything!
+Create custom banner and icon files for your 3DS homebrews.
+This 2.0 update brings:
+-NEW UI!
+-BANNER AND ICONS PREVIEW!
+-EASY TITLE, PUBLISHER AND OPTIONS MODIFICATION
+-NOW LOADING IMAGES IS WAY EASIER!
+-STILL BASED OFF SNAILFACE'S SCRIPT
 
 How to use:
 ===============
--To replace icons: overwrite the .png in the either one of the 'ctpk' folders and click convert.bat to convert the images.
- Make sure image dimensions are the same as the folder indicates.
-
--To replace the banner: In the cbmd_banner folder, you have to overwrite the 256x128.png file with an image of your choice. 
- Click convert.bat same as before. Transparency is supported.
-
--To replace the sound effect: Overwrite the example.bcwav file with one of your choice. .wav to bcwav conversion is not supported at this time.
-
--To change display text and setting flags: edit the variables in AppData.txt. Further instructions are inside this document.
-
--To convert everything to .bin files: simply click BUILD.bat in the 3DS_Banner_Maker folder. 
- Next place place these two files in your 3DSTemplate resource folder and compile as usual.
-
+Put the compiled EXE and the "data" folder inside the same directory, the run the 3DS Banner Maker EXE! 
+Output will be located in the same directory of 3DS Banner Maker.
 
 Dependencies:
 =============
-Python 2, PIL Image libray (Python Image Library)
-Xcution's CiTRUS application is no longer a dependancy.
-
+Same as 3DS Banner Maker 1.0:
+-Python 2
+-PIL
 
 Credits:
 =============
