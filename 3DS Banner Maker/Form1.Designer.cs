@@ -372,7 +372,7 @@
             this.Controls.Add(this.loadBox);
             this.Controls.Add(this.previewBox);
             this.Name = "Form1";
-            this.Text = "3DS Banner Maker 2.0  |  by AlbertoSONIC";
+            this.Text = "3DS Banner Maker  |  by AlbertoSONIC";
             this.previewBox.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.icon24Preview)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.icon48Preview)).EndInit();
